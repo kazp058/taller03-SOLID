@@ -2,8 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package OCPRINCIPLE;
+package OCPRINCIPLE.Solid;
 
+import OCPRINCIPLE.Solid.IMC;
+import OCPRINCIPLE.Solid.Hombre;
 import java.util.ArrayList;
 
 /**

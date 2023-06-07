@@ -8,7 +8,7 @@ package LiskovSust;
  *
  * @author USUARIO
  */
-public class Bird implements canFly {
+public class Bird {
     protected String tipo;
     protected int numPatas;
     protected int numAlas;
@@ -24,10 +24,7 @@ public class Bird implements canFly {
         System.out.println("es vertebrado");
     }
 
-    @Override
-    public void vuela() {
-        System.out.println("Aletea"); 
-    }
+  
     
     
 }

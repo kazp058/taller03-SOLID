@@ -2,18 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ISPrinciple;
+package ISPrinciple.Solid;
+
+
 
 /**
  *
  * @author USUARIO
  */
-public class carroAutomatico implements Automatic {
+public class carroAutomatico implements Automatic{
 
-    @Override
-    public void breakAssistance() {
-        System.out.println("Asistencia Frenado");
-    }
+    
 
     @Override
     public void darVuelta() {
@@ -29,5 +28,13 @@ public class carroAutomatico implements Automatic {
     public void iniciar() {
         System.out.println("Iniciar");
     }
+
+    @Override
+    public void breakAssistance() {
+        System.out.println("Tiene break Assitance");
+    }
+
+   
+    
     
 }

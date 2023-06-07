@@ -2,18 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ISPrinciple;
+package ISPrinciple.noSolid;
+
 
 /**
  *
  * @author USUARIO
  */
-public class carroMecanico implements Mechanical {
+public class carroMecanico implements Manejar{
 
-    @Override
-    public void Embragar() {
-        System.out.println("Embragar");
-    }
+
 
     @Override
     public void darVuelta() {
@@ -28,6 +26,16 @@ public class carroMecanico implements Mechanical {
     @Override
     public void iniciar() {
         System.out.println("Iniciar");
+    }
+
+    @Override
+    public void breakAssistance() {
+        throw new UnsupportedOperationException("No tiene asistencia de frenado"); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void embragar() {
+        System.out.println("Embraga");
     }
     
 }

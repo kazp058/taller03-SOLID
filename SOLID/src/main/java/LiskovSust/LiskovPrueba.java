@@ -16,9 +16,9 @@ public class LiskovPrueba {
     public static void main(String[] args) {
         Bird g=new Gallina("ave", 2, 2);
         Bird p=new Paloma("ave", 2, 2);
-        g.vuela();
+        
         g.isVertebadro();
-        p.vuela();
+       
         g.isVertebadro();
         
     }

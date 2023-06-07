@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package ISPrinciple;
+package OCPRINCIPLE.Solid;
 
 /**
  *
  * @author USUARIO
  */
-public interface Automatic extends Manejar{
-    void breakAssistance();
+public interface IMC {
+    double getIMC();
 }

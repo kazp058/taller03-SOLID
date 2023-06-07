@@ -2,19 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package LiskovSust;
+package OCPRINCIPLE.Solid;
 
 /**
  *
  * @author USUARIO
  */
-public class Paloma extends Bird implements canFly{
-    public Paloma(String tipo, int numPatas, int numAlas){
-        super(tipo, numPatas, numAlas);
+public class Hombre extends Persona implements IMC  {
+ 
+    public  Hombre(int e, double a){
+        super(e, a);
+        
     }
+
     @Override
-    public void vuela() {
-        System.out.println("Vuela");
+    public double getIMC() {
+        return 1.8*(getEdad()+getAltura());
     }
+        
+
+  
     
 }
