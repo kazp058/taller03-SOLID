@@ -9,5 +9,9 @@ package SRPRINCIPLE.noSolid;
  * @author CltControl
  */
 public class SingleResponsabilityNoSolid {
-    
+    public static void main(String[] args) {
+        ProductoNoSolid p=new ProductoNoSolid("p1",0.12,30);
+        Double precio=ProductoNoSolid.getPrecioFinal(p);
+        System.out.println(precio);
+    }
 }
