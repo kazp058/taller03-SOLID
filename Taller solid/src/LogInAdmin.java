@@ -1,3 +1,4 @@
+/*
 public class LogInAdmin extends LogIn {
     private boolean userIsAdmin;
     @Override
@@ -14,4 +15,8 @@ public class LogInAdmin extends LogIn {
         return true;
     }
 }
+*/
 
+//*************SOLUCION*************
+
+//La clase se vuelve inutil
