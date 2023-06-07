@@ -5,7 +5,7 @@ public class AppWeb {
     LogInAdmin logInAdmin;
 
     /*
-    Principio de inversion de dependencia, ya que la connecion a la base de datos no deberia depender de su implementacion
+    Principio de inversion de dependencia, ya que la conexion a la base de datos no deberia depender de su implementacion
     directa sino de su abstraccion.
     MySQL mySQL;
     */
