@@ -2,7 +2,7 @@ import interfaces.IPersistence;
 
 public class MySQL implements IPersistence {
     @Override
-    public void insert(String statement) {}
+    public void insert(Object object) {}
     @Override
     public void select(String statement) {}
     @Override
