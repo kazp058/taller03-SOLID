@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package LiskovSust;
+package LiskovSust.noSolid;
 
 /**
  *
@@ -22,6 +22,9 @@ public class Bird {
 
     public void isVertebadro(){
         System.out.println("es vertebrado");
+    }
+    public void canFly(){
+        System.out.println("Vuela");
     }
 
   

@@ -23,8 +23,12 @@ public class ImcCalculator {
         IMC p2=new Mujer(40, 184);
         pacientes.add(p1);
         pacientes.add(p2);
-        for (IMC p: pacientes){
-            System.out.println(p.getIMC());
+        ImprimirImc(pacientes);
+       
+    }
+    public static void ImprimirImc(ArrayList<IMC> personas){
+         for (IMC p: personas){
+             System.out.println(p.getIMC());
         }
     }
     

@@ -24,7 +24,11 @@ public class ImcCalculator {
         pacientes.add(p1);
         pacientes.add(p2);
         
-        for (Persona p: pacientes){
+        ImprimirImc(pacientes);
+       
+    }
+    public static void ImprimirImc(ArrayList<Persona> personas){
+         for (Persona p: personas){
             if (p instanceof Mujer){
                 System.out.println((p.getEdad()+p.getAltura())*2.00);
             }
